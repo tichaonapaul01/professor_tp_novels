@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Professor Stories</title>
+</head>
+<body>    
+    <main id="landing">
+        <header>
+            <h3>PROFESSOR TP STORIES</h3>
+            <nav class="nav">
+                <a href="">Home</a>
+                <a href="about.html">About</a>
+                <a href="">Novels</a>
+                <a href="">Blog</a>
+                <a href="">FAQ</a>
+                <a href="#contact>Contact Us"</a>
+                <a href="login.html">Login</a>
+            </nav>
+        </header>
+
+        <div class="search">
+            <input type="text" placeholder="search">
+            <button class="btn"><i><img class="searchbtn" src="./Files/search.png" alt=""></i></button>
+        </div>
+
+    </main>
+    <section id="contact">
+        <footer>
+            <h2>Home Of All Amazing Novels</h2>
+            <div>
+                <h4>&copy; Copyright Reserved</h4>
+                <p>Designed By: <br> Engineer_Paul <br> Ton Sam</p>
+            </div>            
+      </footer>    
+    </section>
+
+     <!-- Login Modal -->
+     <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeLogin()">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm" onsubmit="return handleLogin()">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+                                     
+</body>
+</html>
